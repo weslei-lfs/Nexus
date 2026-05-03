@@ -1815,6 +1815,7 @@ const LANGUAGES = [
   { code:"pt-BR", label:"Português (Brasil)", flag:"🇧🇷", currency:"BRL" },
   // Países que usam Dólar
   { code:"en-US", label:"English (United States)", flag:"🇺🇸", currency:"USD" },
+  //
   { code:"en-AU", label:"English (Australia)", flag:"🇦🇺", currency:"USD" },
   { code:"en-CA", label:"English (Canada)", flag:"🇨🇦", currency:"USD" },
   { code:"en-NZ", label:"English (New Zealand)", flag:"🇳🇿", currency:"USD" },
