@@ -1923,8 +1923,8 @@ function SettingsModal({ open, onClose, global: g, updGlobal, t }) {
             {/* Confirm button */}
             <div style={{ position:"sticky",bottom:0,paddingTop:10,background:t.bgCard }}>
               <button onClick={()=>{
-                const lang = LANGUAGES.map(l=>l.code===pendingLang);
-                updGlobal(p=>({...p, language:pendingLang, currency:lang?.currency||p.currency}));
+                const lang = LANGUAGES.find(l=>l.code===pendingLang);
+                updGlobal(p=>({...p, language:pendingLang, currency:lang?.currency && p.currency}));
                 onClose();
               }} style={{ background:t.accent,border:"none",borderRadius:10,color:"#fff",padding:"12px",width:"100%",fontSize:13,fontWeight:800,cursor:"pointer",boxShadow:`0 4px 16px ${t.accentGlow}` }}>
                 ✅ Confirmar Idioma
