@@ -1810,12 +1810,11 @@ function QuickAddModal({ item, form, setForm, onConfirm, onClose, t, fmt }) {
 }
 
 // ─── SETTINGS MODAL ───────────────────────────────────────────────────────────
-const LANGUAGES = [
+var LANGUAGES = [
   // Países que usam Real
   { code:"pt-BR", label:"Português (Brasil)", flag:"🇧🇷", currency:"BRL" },
   // Países que usam Dólar
   { code:"en-US", label:"English (United States)", flag:"🇺🇸", currency:"USD" },
-  //
   { code:"en-AU", label:"English (Australia)", flag:"🇦🇺", currency:"USD" },
   { code:"en-CA", label:"English (Canada)", flag:"🇨🇦", currency:"USD" },
   { code:"en-NZ", label:"English (New Zealand)", flag:"🇳🇿", currency:"USD" },
