@@ -1094,7 +1094,7 @@ function Dashboard({ user, displayName, onLogout }) {
             </div>
           </div>
             {/* POUPANÇA */}
-            <button onClick={()=>setShowSavings(true)} style={{ background:t.yellow,border:"none",borderRadius:8,color:"#000",padding:"8px 20px",cursor:"pointer",fontSize:11,fontWeight:800,display:"flex",alignItems:"center",gap:6,justifyContent:"center",width:"100%",flexShrink:0 }}>
+            <button onClick={()=>setShowSavings(true)} style={{ background:t.yellow,border:"none",borderRadius:8,color:"#000",padding:"8px 10px",cursor:"pointer",fontSize:11,fontWeight:800,display:"flex",alignItems:"center",gap:6,justifyContent:"center",width:"100%",flexShrink:0 }}>
               🏦 Poupança · {fmt(totalSavings)}
             </button>
 
