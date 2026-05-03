@@ -1830,7 +1830,7 @@ const LANGUAGES = [
   { code:"nl-NL", label:"Nederlands (Nederland)", flag:"🇳🇱", currency:"EUR" },
   { code:"el-GR", label:"Ελληνικά (Ελλάδα)", flag:"🇬🇷", currency:"EUR" },
   { code:"fi-FI", label:"Suomi (Suomi)", flag:"🇫🇮", currency:"EUR" },
-  { code:"sv-SE", label:"Svenska (Sverige)", flag:"🇸🇪", currency:"EUR" },
+  { code:"sv-SE", label:"Svenska (Sverige)", flag:"🇸🇪", currency:"EUR" }
 ];
 
 const PRESET_COLORS = ["#e53935","#1e88e5","#43a047","#fb8c00","#8e24aa","#00acc1","#f06292","#26a69a","#ffb300","#546e7a"];
